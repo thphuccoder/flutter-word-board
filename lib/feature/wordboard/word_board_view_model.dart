@@ -53,6 +53,7 @@ class WordBoardViewModel extends ChangeNotifier {
         // TODO: If User moves the pointer backward -> Update selected cells
 
         // Add the current cell to selected list if it has not been added yet
+        // TODO: Don't add the cell if it is not an adjacent cell of the last added cell
         if (!selectedCells.contains(currentCell)) {
           selectedCells.add(currentCell);
         }
