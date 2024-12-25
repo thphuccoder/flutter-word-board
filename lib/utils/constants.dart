@@ -1,0 +1,9 @@
+const int wordBoardMargin = 16;
+const int wordBoardColumn = 6;
+const int wordBoardRow = 6;
+const String alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const int cellMargin = 4;
+const double cellBorderRadius = 12;
+const double connectedPathWidth = 10;
+const double connectedDotRadius = 12;
+const String defaultHiddenWord = 'Hello';
